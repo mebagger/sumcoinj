@@ -15,27 +15,27 @@
  * limitations under the License.
  */
 
-package org.litecoinj.wallet;
+package org.sumcoinj.wallet;
 
 import com.google.protobuf.Message;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.PeerAddress;
-import org.litecoinj.core.Sha256Hash;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.TransactionConfidence;
-import org.litecoinj.core.TransactionConfidence.ConfidenceType;
-import org.litecoinj.core.TransactionInput;
-import org.litecoinj.core.TransactionOutPoint;
-import org.litecoinj.core.TransactionOutput;
-import org.litecoinj.core.TransactionWitness;
-import org.litecoinj.crypto.KeyCrypter;
-import org.litecoinj.crypto.KeyCrypterScrypt;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.ScriptException;
-import org.litecoinj.utils.ExchangeRate;
-import org.litecoinj.utils.Fiat;
-import org.litecoinj.wallet.Protos.Wallet.EncryptionType;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.PeerAddress;
+import org.sumcoinj.core.Sha256Hash;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.TransactionConfidence;
+import org.sumcoinj.core.TransactionConfidence.ConfidenceType;
+import org.sumcoinj.core.TransactionInput;
+import org.sumcoinj.core.TransactionOutPoint;
+import org.sumcoinj.core.TransactionOutput;
+import org.sumcoinj.core.TransactionWitness;
+import org.sumcoinj.crypto.KeyCrypter;
+import org.sumcoinj.crypto.KeyCrypterScrypt;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.ScriptException;
+import org.sumcoinj.utils.ExchangeRate;
+import org.sumcoinj.utils.Fiat;
+import org.sumcoinj.wallet.Protos.Wallet.EncryptionType;
 
 import com.google.common.collect.Lists;
 import com.google.protobuf.ByteString;
@@ -707,7 +707,7 @@ public class WalletProtobufSerializer {
     }
 
     private WalletTransaction connectTransactionOutputs(final NetworkParameters params,
-                                                        final org.litecoinj.wallet.Protos.Transaction txProto) throws UnreadableWalletException {
+                                                        final org.sumcoinj.wallet.Protos.Transaction txProto) throws UnreadableWalletException {
         Transaction tx = txMap.get(txProto.getHash());
         final WalletTransaction.Pool pool;
         switch (txProto.getPool()) {

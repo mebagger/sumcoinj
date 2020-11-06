@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package org.litecoinj.script;
+package org.sumcoinj.script;
 
 import com.google.common.collect.Lists;
 
-import org.litecoinj.core.ECKey;
+import org.sumcoinj.core.ECKey;
 import org.junit.Test;
 
 import java.math.BigInteger;

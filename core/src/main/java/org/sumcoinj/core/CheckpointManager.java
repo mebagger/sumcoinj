@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import org.litecoinj.store.BlockStore;
-import org.litecoinj.store.BlockStoreException;
-import org.litecoinj.store.FullPrunedBlockStore;
+import org.sumcoinj.store.BlockStore;
+import org.sumcoinj.store.BlockStoreException;
+import org.sumcoinj.store.FullPrunedBlockStore;
 import com.google.common.hash.HashCode;
 import com.google.common.hash.Hasher;
 import com.google.common.hash.Hashing;
 import com.google.common.io.BaseEncoding;
 
-import org.litecoinj.store.SPVBlockStore;
+import org.sumcoinj.store.SPVBlockStore;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

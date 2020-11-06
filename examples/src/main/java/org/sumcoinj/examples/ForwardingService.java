@@ -15,24 +15,24 @@
  * limitations under the License.
  */
 
-package org.litecoinj.examples;
+package org.sumcoinj.examples;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.InsufficientMoneyException;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.TransactionConfidence;
-import org.litecoinj.crypto.KeyCrypterException;
-import org.litecoinj.kits.WalletAppKit;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.params.RegTestParams;
-import org.litecoinj.params.TestNet3Params;
-import org.litecoinj.utils.BriefLogFormatter;
-import org.litecoinj.wallet.SendRequest;
-import org.litecoinj.wallet.Wallet;
-import org.litecoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.InsufficientMoneyException;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.TransactionConfidence;
+import org.sumcoinj.crypto.KeyCrypterException;
+import org.sumcoinj.kits.WalletAppKit;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.params.RegTestParams;
+import org.sumcoinj.params.TestNet3Params;
+import org.sumcoinj.utils.BriefLogFormatter;
+import org.sumcoinj.wallet.SendRequest;
+import org.sumcoinj.wallet.Wallet;
+import org.sumcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;

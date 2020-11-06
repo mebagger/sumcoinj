@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import com.google.common.base.*;
 import com.google.common.base.Objects;
-import org.litecoinj.core.listeners.*;
-import org.litecoinj.net.AbstractTimeoutHandler;
-import org.litecoinj.net.NioClient;
-import org.litecoinj.net.NioClientManager;
-import org.litecoinj.net.StreamConnection;
-import org.litecoinj.store.BlockStore;
-import org.litecoinj.store.BlockStoreException;
-import org.litecoinj.utils.ListenerRegistration;
-import org.litecoinj.utils.Threading;
-import org.litecoinj.wallet.Wallet;
+import org.sumcoinj.core.listeners.*;
+import org.sumcoinj.net.AbstractTimeoutHandler;
+import org.sumcoinj.net.NioClient;
+import org.sumcoinj.net.NioClientManager;
+import org.sumcoinj.net.StreamConnection;
+import org.sumcoinj.store.BlockStore;
+import org.sumcoinj.store.BlockStoreException;
+import org.sumcoinj.utils.ListenerRegistration;
+import org.sumcoinj.utils.Threading;
+import org.sumcoinj.wallet.Wallet;
 
 import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.FutureCallback;

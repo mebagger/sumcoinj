@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.litecoinj.testing;
+package org.sumcoinj.testing;
 
-import org.litecoinj.core.*;
-import org.litecoinj.utils.Threading;
-import org.litecoinj.wallet.Wallet;
+import org.sumcoinj.core.*;
+import org.sumcoinj.utils.Threading;
+import org.sumcoinj.wallet.Wallet;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;

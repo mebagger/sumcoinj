@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import com.google.common.base.*;
 import com.google.common.collect.*;
 import com.google.common.util.concurrent.*;
-import org.litecoinj.core.listeners.*;
-import org.litecoinj.script.ScriptException;
-import org.litecoinj.store.*;
-import org.litecoinj.utils.*;
-import org.litecoinj.wallet.Wallet;
+import org.sumcoinj.core.listeners.*;
+import org.sumcoinj.script.ScriptException;
+import org.sumcoinj.store.*;
+import org.sumcoinj.utils.*;
+import org.sumcoinj.wallet.Wallet;
 import org.slf4j.*;
 
 import javax.annotation.*;

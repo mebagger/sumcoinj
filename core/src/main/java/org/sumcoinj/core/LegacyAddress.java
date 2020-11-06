@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import static com.google.common.base.Preconditions.checkArgument;
 
@@ -24,10 +24,10 @@ import java.util.Arrays;
 
 import javax.annotation.Nullable;
 
-import org.litecoinj.params.Networks;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.Script.ScriptType;
-import org.litecoinj.script.ScriptPattern;
+import org.sumcoinj.params.Networks;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.Script.ScriptType;
+import org.sumcoinj.script.ScriptPattern;
 
 import com.google.common.base.Objects;
 

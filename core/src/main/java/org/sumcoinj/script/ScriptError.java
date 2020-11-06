@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.script;
+package org.sumcoinj.script;
 
 import java.util.HashMap;
 import java.util.Map;

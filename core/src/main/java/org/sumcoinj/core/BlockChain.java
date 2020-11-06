@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import static com.google.common.base.Preconditions.checkArgument;
 
-import org.litecoinj.store.BlockStore;
-import org.litecoinj.store.BlockStoreException;
-import org.litecoinj.store.MemoryBlockStore;
-import org.litecoinj.store.SPVBlockStore;
-import org.litecoinj.wallet.Wallet;
-import org.litecoinj.wallet.WalletExtension;
+import org.sumcoinj.store.BlockStore;
+import org.sumcoinj.store.BlockStoreException;
+import org.sumcoinj.store.MemoryBlockStore;
+import org.sumcoinj.store.SPVBlockStore;
+import org.sumcoinj.wallet.Wallet;
+import org.sumcoinj.wallet.WalletExtension;
 
 import java.io.File;
 import java.util.ArrayList;

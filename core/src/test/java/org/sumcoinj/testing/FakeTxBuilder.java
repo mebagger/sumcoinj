@@ -15,36 +15,36 @@
  * limitations under the License.
  */
 
-package org.litecoinj.testing;
+package org.sumcoinj.testing;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Block;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.MessageSerializer;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.ProtocolException;
-import org.litecoinj.core.Sha256Hash;
-import org.litecoinj.core.StoredBlock;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.TransactionConfidence;
-import org.litecoinj.core.TransactionInput;
-import org.litecoinj.core.TransactionOutPoint;
-import org.litecoinj.core.TransactionOutput;
-import org.litecoinj.core.Utils;
-import org.litecoinj.core.VerificationException;
-import org.litecoinj.crypto.TransactionSignature;
-import org.litecoinj.script.ScriptBuilder;
-import org.litecoinj.store.BlockStore;
-import org.litecoinj.store.BlockStoreException;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Block;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.MessageSerializer;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.ProtocolException;
+import org.sumcoinj.core.Sha256Hash;
+import org.sumcoinj.core.StoredBlock;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.TransactionConfidence;
+import org.sumcoinj.core.TransactionInput;
+import org.sumcoinj.core.TransactionOutPoint;
+import org.sumcoinj.core.TransactionOutput;
+import org.sumcoinj.core.Utils;
+import org.sumcoinj.core.VerificationException;
+import org.sumcoinj.crypto.TransactionSignature;
+import org.sumcoinj.script.ScriptBuilder;
+import org.sumcoinj.store.BlockStore;
+import org.sumcoinj.store.BlockStoreException;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Random;
 
-import static org.litecoinj.core.Coin.*;
+import static org.sumcoinj.core.Coin.*;
 import static com.google.common.base.Preconditions.checkState;
 
 public class FakeTxBuilder {

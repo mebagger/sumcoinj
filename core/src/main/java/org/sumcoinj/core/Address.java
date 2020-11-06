@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import javax.annotation.Nullable;
 
-import org.litecoinj.script.Script;
-import org.litecoinj.script.Script.ScriptType;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.Script.ScriptType;
 
 /**
  * <p>

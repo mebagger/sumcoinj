@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.litecoinj.store;
+package org.sumcoinj.store;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Context;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.StoredBlock;
-import org.litecoinj.params.*;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Context;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.StoredBlock;
+import org.sumcoinj.params.*;
 import org.junit.*;
 
 import java.io.*;

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import org.litecoinj.utils.ContextPropagatingThreadFactory;
-import org.litecoinj.wallet.SendRequest;
+import org.sumcoinj.utils.ContextPropagatingThreadFactory;
+import org.sumcoinj.wallet.SendRequest;
 import org.slf4j.*;
 
 import static com.google.common.base.Preconditions.*;
@@ -71,7 +71,7 @@ public class Context {
      * @param ensureMinRequiredFee Whether to ensure the minimum required fee by default when completing transactions. For details, see {@link SendRequest#ensureMinRequiredFee}.
      */
     public Context(NetworkParameters params, int eventHorizon, Coin feePerKb, boolean ensureMinRequiredFee) {
-        log.info("Creating litecoinj {} context.", VersionMessage.BITCOINJ_VERSION);
+        log.info("Creating sumcoinj {} context.", VersionMessage.BITCOINJ_VERSION);
         this.confidenceTable = new TxConfidenceTable();
         this.params = params;
         this.eventHorizon = eventHorizon;
@@ -99,12 +99,12 @@ public class Context {
         Context tls = slot.get();
         if (tls == null) {
             if (isStrictMode) {
-                log.error("Thread is missing a litecoinj context.");
+                log.error("Thread is missing a sumcoinj context.");
                 log.error("You should use Context.propagate() or a ContextPropagatingThreadFactory.");
                 throw new IllegalStateException("missing context");
             }
             if (lastConstructed == null)
-                throw new IllegalStateException("You must construct a Context object before using litecoinj!");
+                throw new IllegalStateException("You must construct a Context object before using sumcoinj!");
             slot.set(lastConstructed);
             log.error("Performing thread fixup: you are accessing bitcoinj via a thread that has not had any context set on it.");
             log.error("This error has been corrected for, but doing this makes your app less robust.");

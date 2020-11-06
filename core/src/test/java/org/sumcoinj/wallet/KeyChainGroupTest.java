@@ -15,22 +15,22 @@
  * limitations under the License.
  */
 
-package org.litecoinj.wallet;
+package org.sumcoinj.wallet;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.BloomFilter;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Sha256Hash;
-import org.litecoinj.core.Utils;
-import org.litecoinj.crypto.*;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.Script.ScriptType;
-import org.litecoinj.utils.BriefLogFormatter;
-import org.litecoinj.utils.Threading;
-import org.litecoinj.wallet.KeyChain.KeyPurpose;
-import org.litecoinj.wallet.listeners.KeyChainEventListener;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.BloomFilter;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Sha256Hash;
+import org.sumcoinj.core.Utils;
+import org.sumcoinj.crypto.*;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.Script.ScriptType;
+import org.sumcoinj.utils.BriefLogFormatter;
+import org.sumcoinj.utils.Threading;
+import org.sumcoinj.wallet.KeyChain.KeyPurpose;
+import org.sumcoinj.wallet.listeners.KeyChainEventListener;
 
 import com.google.common.collect.ImmutableList;
 import org.junit.Before;

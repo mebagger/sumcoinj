@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.store;
+package org.sumcoinj.store;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -25,15 +25,15 @@ import java.math.BigInteger;
 import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Block;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Sha256Hash;
-import org.litecoinj.core.StoredBlock;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.params.UnitTestParams;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Block;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Sha256Hash;
+import org.sumcoinj.core.StoredBlock;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.params.UnitTestParams;
 import org.junit.Before;
 import org.junit.Test;
 

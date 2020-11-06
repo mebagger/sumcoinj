@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.litecoinj.protocols.payments;
+package org.sumcoinj.protocols.payments;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.crypto.X509Utils;
-import org.litecoinj.params.TestNet3Params;
-import org.litecoinj.params.UnitTestParams;
-import org.litecoinj.protocols.payments.PaymentProtocol.Output;
-import org.litecoinj.protocols.payments.PaymentProtocol.PkiVerificationData;
-import org.litecoinj.protocols.payments.PaymentProtocolException.PkiVerificationException;
-import org.litecoinj.script.ScriptBuilder;
-import org.litecoinj.testing.FakeTxBuilder;
-import org.litecoin.protocols.payments.Protos;
-import org.litecoin.protocols.payments.Protos.Payment;
-import org.litecoin.protocols.payments.Protos.PaymentACK;
-import org.litecoin.protocols.payments.Protos.PaymentRequest;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.crypto.X509Utils;
+import org.sumcoinj.params.TestNet3Params;
+import org.sumcoinj.params.UnitTestParams;
+import org.sumcoinj.protocols.payments.PaymentProtocol.Output;
+import org.sumcoinj.protocols.payments.PaymentProtocol.PkiVerificationData;
+import org.sumcoinj.protocols.payments.PaymentProtocolException.PkiVerificationException;
+import org.sumcoinj.script.ScriptBuilder;
+import org.sumcoinj.testing.FakeTxBuilder;
+import org.sumcoin.protocols.payments.Protos;
+import org.sumcoin.protocols.payments.Protos.Payment;
+import org.sumcoin.protocols.payments.Protos.PaymentACK;
+import org.sumcoin.protocols.payments.Protos.PaymentRequest;
 import org.junit.Before;
 import org.junit.Test;
 

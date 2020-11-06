@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;

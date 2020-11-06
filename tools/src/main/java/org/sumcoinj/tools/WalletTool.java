@@ -15,26 +15,26 @@
  * limitations under the License.
  */
 
-package org.litecoinj.tools;
+package org.sumcoinj.tools;
 
-import org.litecoinj.crypto.*;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.params.RegTestParams;
-import org.litecoinj.params.TestNet3Params;
-import org.litecoinj.protocols.payments.PaymentProtocol;
-import org.litecoinj.protocols.payments.PaymentProtocolException;
-import org.litecoinj.protocols.payments.PaymentSession;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.Script.ScriptType;
-import org.litecoinj.script.ScriptBuilder;
-import org.litecoinj.script.ScriptException;
-import org.litecoinj.script.ScriptPattern;
-import org.litecoinj.store.*;
-import org.litecoinj.uri.BitcoinURI;
-import org.litecoinj.uri.BitcoinURIParseException;
-import org.litecoinj.utils.BriefLogFormatter;
-import org.litecoinj.wallet.DeterministicKeyChain;
-import org.litecoinj.wallet.DeterministicSeed;
+import org.sumcoinj.crypto.*;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.params.RegTestParams;
+import org.sumcoinj.params.TestNet3Params;
+import org.sumcoinj.protocols.payments.PaymentProtocol;
+import org.sumcoinj.protocols.payments.PaymentProtocolException;
+import org.sumcoinj.protocols.payments.PaymentSession;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.Script.ScriptType;
+import org.sumcoinj.script.ScriptBuilder;
+import org.sumcoinj.script.ScriptException;
+import org.sumcoinj.script.ScriptPattern;
+import org.sumcoinj.store.*;
+import org.sumcoinj.uri.BitcoinURI;
+import org.sumcoinj.uri.BitcoinURIParseException;
+import org.sumcoinj.utils.BriefLogFormatter;
+import org.sumcoinj.wallet.DeterministicKeyChain;
+import org.sumcoinj.wallet.DeterministicSeed;
 
 import com.google.common.base.CharMatcher;
 import com.google.common.base.Splitter;
@@ -49,46 +49,46 @@ import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
 import joptsimple.util.DateConverter;
 
-import org.litecoinj.core.AbstractBlockChain;
-import org.litecoinj.core.Address;
-import org.litecoinj.core.AddressFormatException;
-import org.litecoinj.core.Base58;
-import org.litecoinj.core.Block;
-import org.litecoinj.core.BlockChain;
-import org.litecoinj.core.CheckpointManager;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.Context;
-import org.litecoinj.core.DumpedPrivateKey;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.FilteredBlock;
-import org.litecoinj.core.FullPrunedBlockChain;
-import org.litecoinj.core.InsufficientMoneyException;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Peer;
-import org.litecoinj.core.PeerAddress;
-import org.litecoinj.core.PeerGroup;
-import org.litecoinj.core.SegwitAddress;
-import org.litecoinj.core.Sha256Hash;
-import org.litecoinj.core.StoredBlock;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.TransactionInput;
-import org.litecoinj.core.TransactionOutput;
-import org.litecoinj.core.Utils;
-import org.litecoinj.core.VerificationException;
-import org.litecoinj.core.listeners.BlocksDownloadedEventListener;
-import org.litecoinj.core.listeners.DownloadProgressTracker;
-import org.litecoinj.wallet.MarriedKeyChain;
-import org.litecoinj.wallet.Protos;
-import org.litecoinj.wallet.SendRequest;
-import org.litecoinj.wallet.Wallet;
-import org.litecoinj.wallet.WalletExtension;
-import org.litecoinj.wallet.WalletProtobufSerializer;
-import org.litecoinj.wallet.Wallet.BalanceType;
-import org.litecoinj.wallet.listeners.WalletChangeEventListener;
-import org.litecoinj.wallet.listeners.WalletCoinsReceivedEventListener;
-import org.litecoinj.wallet.listeners.WalletCoinsSentEventListener;
-import org.litecoinj.wallet.listeners.WalletReorganizeEventListener;
+import org.sumcoinj.core.AbstractBlockChain;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.AddressFormatException;
+import org.sumcoinj.core.Base58;
+import org.sumcoinj.core.Block;
+import org.sumcoinj.core.BlockChain;
+import org.sumcoinj.core.CheckpointManager;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.Context;
+import org.sumcoinj.core.DumpedPrivateKey;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.FilteredBlock;
+import org.sumcoinj.core.FullPrunedBlockChain;
+import org.sumcoinj.core.InsufficientMoneyException;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Peer;
+import org.sumcoinj.core.PeerAddress;
+import org.sumcoinj.core.PeerGroup;
+import org.sumcoinj.core.SegwitAddress;
+import org.sumcoinj.core.Sha256Hash;
+import org.sumcoinj.core.StoredBlock;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.TransactionInput;
+import org.sumcoinj.core.TransactionOutput;
+import org.sumcoinj.core.Utils;
+import org.sumcoinj.core.VerificationException;
+import org.sumcoinj.core.listeners.BlocksDownloadedEventListener;
+import org.sumcoinj.core.listeners.DownloadProgressTracker;
+import org.sumcoinj.wallet.MarriedKeyChain;
+import org.sumcoinj.wallet.Protos;
+import org.sumcoinj.wallet.SendRequest;
+import org.sumcoinj.wallet.Wallet;
+import org.sumcoinj.wallet.WalletExtension;
+import org.sumcoinj.wallet.WalletProtobufSerializer;
+import org.sumcoinj.wallet.Wallet.BalanceType;
+import org.sumcoinj.wallet.listeners.WalletChangeEventListener;
+import org.sumcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.sumcoinj.wallet.listeners.WalletCoinsSentEventListener;
+import org.sumcoinj.wallet.listeners.WalletReorganizeEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.bouncycastle.crypto.params.KeyParameter;
@@ -111,7 +111,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.LogManager;
 
-import static org.litecoinj.core.Coin.parseCoin;
+import static org.sumcoinj.core.Coin.parseCoin;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
@@ -137,7 +137,7 @@ public class WalletTool {
     private static File chainFileName;
     private static ValidationMode mode;
     private static String password;
-    private static org.litecoin.protocols.payments.Protos.PaymentRequest paymentRequest;
+    private static org.sumcoin.protocols.payments.Protos.PaymentRequest paymentRequest;
 
     public static class Condition {
         public enum Type {
@@ -1109,7 +1109,7 @@ public class WalletTool {
                 System.exit(1);
             }
             try {
-                paymentRequest = org.litecoin.protocols.payments.Protos.PaymentRequest.newBuilder().mergeFrom(stream).build();
+                paymentRequest = org.sumcoin.protocols.payments.Protos.PaymentRequest.newBuilder().mergeFrom(stream).build();
             } catch(IOException e) {
                 System.err.println("Failed to parse payment request from file " + e.getMessage());
                 System.exit(1);

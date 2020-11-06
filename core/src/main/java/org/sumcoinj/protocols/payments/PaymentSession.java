@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.litecoinj.protocols.payments;
+package org.sumcoinj.protocols.payments;
 
-import org.litecoinj.core.*;
-import org.litecoinj.crypto.TrustStoreLoader;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.protocols.payments.PaymentProtocol.PkiVerificationData;
-import org.litecoinj.uri.BitcoinURI;
-import org.litecoinj.utils.Threading;
-import org.litecoinj.wallet.SendRequest;
+import org.sumcoinj.core.*;
+import org.sumcoinj.crypto.TrustStoreLoader;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.protocols.payments.PaymentProtocol.PkiVerificationData;
+import org.sumcoinj.uri.BitcoinURI;
+import org.sumcoinj.utils.Threading;
+import org.sumcoinj.wallet.SendRequest;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.protobuf.InvalidProtocolBufferException;
 
-import org.litecoin.protocols.payments.Protos;
+import org.sumcoin.protocols.payments.Protos;
 
 import javax.annotation.Nullable;
 

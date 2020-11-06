@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.crypto;
+package org.sumcoinj.crypto;
 
 import java.io.IOException;
 import java.util.List;
@@ -24,8 +24,8 @@ import com.google.common.collect.Lists;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.litecoinj.core.Utils.HEX;
-import static org.litecoinj.core.Utils.WHITESPACE_SPLITTER;
+import static org.sumcoinj.core.Utils.HEX;
+import static org.sumcoinj.core.Utils.WHITESPACE_SPLITTER;
 
 /**
  * Test the various guard clauses of {@link MnemonicCode}.

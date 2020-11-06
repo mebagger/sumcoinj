@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core.listeners;
+package org.sumcoinj.core.listeners;
 
-import org.litecoinj.core.Peer;
-import org.litecoinj.core.PeerGroup;
+import org.sumcoinj.core.Peer;
+import org.sumcoinj.core.PeerGroup;
 
 /**
  * <p>Implementors can listen to events indicating a peer disconnecting.</p>

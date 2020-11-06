@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package org.litecoinj.wallet;
+package org.sumcoinj.wallet;
 
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.ECKey.ECDSASignature;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.SignatureDecodeException;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.TransactionConfidence;
-import org.litecoinj.core.TransactionInput;
-import org.litecoinj.core.TransactionOutput;
-import org.litecoinj.crypto.TransactionSignature;
-import org.litecoinj.script.ScriptChunk;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.ECKey.ECDSASignature;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.SignatureDecodeException;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.TransactionConfidence;
+import org.sumcoinj.core.TransactionInput;
+import org.sumcoinj.core.TransactionOutput;
+import org.sumcoinj.crypto.TransactionSignature;
+import org.sumcoinj.script.ScriptChunk;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

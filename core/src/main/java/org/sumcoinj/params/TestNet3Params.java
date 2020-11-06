@@ -15,18 +15,18 @@
  * limitations under the License.
  */
 
-package org.litecoinj.params;
+package org.sumcoinj.params;
 
 import java.math.BigInteger;
 import java.util.Date;
 
-import org.litecoinj.core.Block;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.StoredBlock;
-import org.litecoinj.core.Utils;
-import org.litecoinj.core.VerificationException;
-import org.litecoinj.store.BlockStore;
-import org.litecoinj.store.BlockStoreException;
+import org.sumcoinj.core.Block;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.StoredBlock;
+import org.sumcoinj.core.Utils;
+import org.sumcoinj.core.VerificationException;
+import org.sumcoinj.store.BlockStore;
+import org.sumcoinj.store.BlockStoreException;
 
 import static com.google.common.base.Preconditions.checkState;
 
@@ -61,8 +61,8 @@ public class TestNet3Params extends AbstractBitcoinNetParams {
         alertSigningKey = Utils.HEX.decode("04302390343f91cc401d56d68b123028bf52e5fca1939df127f63c6467cdf9c8e2c14b61104cf817d0b780da337893ecc4aaff1309e536162dabbdb45200ca2b0a");
 
         dnsSeeds = new String[] {
-                "testnet-seed.litecointools.com",
-                "seed-b.litecoin.loshan.co.uk",
+                "testnet-seed.sumcointools.com",
+                "seed-b.sumcoin.loshan.co.uk",
                 "dnsseed-testnet.thrasher.io",
         };
         addrSeeds = null;

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.litecoinj.net;
+package org.sumcoinj.net;
 
 import com.google.common.collect.Lists;
-import org.litecoinj.core.BloomFilter;
-import org.litecoinj.core.PeerFilterProvider;
+import org.sumcoinj.core.BloomFilter;
+import org.sumcoinj.core.PeerFilterProvider;
 import com.google.common.collect.ImmutableList;
-import org.litecoinj.core.PeerGroup;
+import org.sumcoinj.core.PeerGroup;
 
 import java.util.LinkedList;
 

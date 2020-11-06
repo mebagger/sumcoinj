@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.utils;
+package org.sumcoinj.utils;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkState;
@@ -30,8 +30,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Objects;
 
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.Monetary;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.Monetary;
 
 /**
  * <p>

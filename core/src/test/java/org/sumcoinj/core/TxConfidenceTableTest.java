@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import org.litecoinj.params.*;
-import org.litecoinj.testing.*;
-import org.litecoinj.utils.*;
+import org.sumcoinj.params.*;
+import org.sumcoinj.testing.*;
+import org.sumcoinj.utils.*;
 import org.junit.*;
 
 import java.net.*;
 
-import static org.litecoinj.core.Coin.COIN;
+import static org.sumcoinj.core.Coin.COIN;
 import static org.easymock.EasyMock.anyObject;
 import static org.easymock.EasyMock.createMock;
 import static org.easymock.EasyMock.expect;

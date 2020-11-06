@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.litecoinj.uri;
+package org.sumcoinj.uri;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.AddressFormatException;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.params.AbstractBitcoinNetParams;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.AddressFormatException;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.params.AbstractBitcoinNetParams;
 
 import javax.annotation.Nullable;
 

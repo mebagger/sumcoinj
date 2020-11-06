@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.litecoinj.testing;
+package org.sumcoinj.testing;
 
-import org.litecoinj.core.*;
+import org.sumcoinj.core.*;
 import com.google.common.util.concurrent.SettableFuture;
 
 import java.net.InetAddress;

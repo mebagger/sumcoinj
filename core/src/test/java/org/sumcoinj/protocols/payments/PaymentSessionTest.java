@@ -15,23 +15,23 @@
  * limitations under the License.
  */
 
-package org.litecoinj.protocols.payments;
+package org.sumcoinj.protocols.payments;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.Context;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.TransactionInput;
-import org.litecoinj.core.TransactionOutput;
-import org.litecoinj.crypto.TrustStoreLoader;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.params.TestNet3Params;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.Context;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.TransactionInput;
+import org.sumcoinj.core.TransactionOutput;
+import org.sumcoinj.crypto.TrustStoreLoader;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.params.TestNet3Params;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.protobuf.ByteString;
-import org.litecoin.protocols.payments.Protos;
+import org.sumcoin.protocols.payments.Protos;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -41,7 +41,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 
-import static org.litecoinj.core.Coin.COIN;
+import static org.sumcoinj.core.Coin.COIN;
 import static org.junit.Assert.*;
 
 public class PaymentSessionTest {

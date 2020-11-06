@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.litecoinj.wallet;
+package org.sumcoinj.wallet;
 
 import com.google.common.collect.ImmutableList;
-import org.litecoinj.crypto.ChildNumber;
-import org.litecoinj.crypto.DeterministicKey;
-import org.litecoinj.crypto.KeyCrypter;
-import org.litecoinj.script.Script;
+import org.sumcoinj.crypto.ChildNumber;
+import org.sumcoinj.crypto.DeterministicKey;
+import org.sumcoinj.crypto.KeyCrypter;
+import org.sumcoinj.script.Script;
 
 /**
  * Factory interface for creation keychains while de-serializing a wallet.

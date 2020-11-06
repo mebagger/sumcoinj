@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.litecoinj.utils;
+package org.sumcoinj.utils;
 
 import com.google.common.util.concurrent.CycleDetectingLockFactory;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
 import com.google.common.util.concurrent.Uninterruptibles;
-import org.litecoinj.core.*;
+import org.sumcoinj.core.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -91,7 +91,7 @@ public class Threading {
         private LinkedBlockingQueue<Runnable> tasks;
 
         public UserThread() {
-            super("litecoinj user thread");
+            super("sumcoinj user thread");
             setDaemon(true);
             tasks = new LinkedBlockingQueue<>();
             start();

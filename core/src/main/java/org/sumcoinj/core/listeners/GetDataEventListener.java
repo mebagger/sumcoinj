@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core.listeners;
+package org.sumcoinj.core.listeners;
 
-import org.litecoinj.core.*;
-import org.litecoinj.utils.Threading;
+import org.sumcoinj.core.*;
+import org.sumcoinj.utils.Threading;
 
 import javax.annotation.*;
 import java.util.*;

@@ -50,7 +50,7 @@
 
 
 // Import some stuff.
-var bcj = org.litecoinj;
+var bcj = org.sumcoinj;
 var ECKey = bcj.core.ECKey;
 
 // We'll use the testnet for now.

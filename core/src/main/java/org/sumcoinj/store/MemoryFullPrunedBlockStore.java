@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.litecoinj.store;
+package org.sumcoinj.store;
 
-import org.litecoinj.core.*;
+import org.sumcoinj.core.*;
 import com.google.common.base.Objects;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;

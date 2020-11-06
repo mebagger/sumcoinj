@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import org.litecoinj.script.Script;
-import org.litecoinj.script.Script.VerifyFlag;
-import org.litecoinj.script.ScriptPattern;
-import org.litecoinj.store.BlockStoreException;
-import org.litecoinj.store.FullPrunedBlockStore;
-import org.litecoinj.utils.*;
-import org.litecoinj.wallet.Wallet;
-import org.litecoinj.wallet.WalletExtension;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.Script.VerifyFlag;
+import org.sumcoinj.script.ScriptPattern;
+import org.sumcoinj.store.BlockStoreException;
+import org.sumcoinj.store.FullPrunedBlockStore;
+import org.sumcoinj.utils.*;
+import org.sumcoinj.wallet.Wallet;
+import org.sumcoinj.wallet.WalletExtension;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

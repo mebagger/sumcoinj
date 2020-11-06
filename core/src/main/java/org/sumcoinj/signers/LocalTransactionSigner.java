@@ -15,26 +15,26 @@
  * limitations under the License.
  */
 
-package org.litecoinj.signers;
+package org.sumcoinj.signers;
 
 import java.util.EnumSet;
 
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.TransactionInput;
-import org.litecoinj.core.TransactionOutput;
-import org.litecoinj.core.TransactionWitness;
-import org.litecoinj.crypto.DeterministicKey;
-import org.litecoinj.crypto.TransactionSignature;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.ScriptBuilder;
-import org.litecoinj.script.ScriptException;
-import org.litecoinj.script.ScriptPattern;
-import org.litecoinj.script.Script.VerifyFlag;
-import org.litecoinj.wallet.KeyBag;
-import org.litecoinj.wallet.RedeemData;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.TransactionInput;
+import org.sumcoinj.core.TransactionOutput;
+import org.sumcoinj.core.TransactionWitness;
+import org.sumcoinj.crypto.DeterministicKey;
+import org.sumcoinj.crypto.TransactionSignature;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.ScriptBuilder;
+import org.sumcoinj.script.ScriptException;
+import org.sumcoinj.script.ScriptPattern;
+import org.sumcoinj.script.Script.VerifyFlag;
+import org.sumcoinj.wallet.KeyBag;
+import org.sumcoinj.wallet.RedeemData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

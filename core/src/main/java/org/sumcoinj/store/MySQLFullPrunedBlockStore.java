@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.store;
+package org.sumcoinj.store;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.NetworkParameters;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.NetworkParameters;
 
 import java.util.ArrayList;
 import java.util.Collections;

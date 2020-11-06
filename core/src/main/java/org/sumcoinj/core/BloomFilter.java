@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import org.litecoinj.script.Script;
-import org.litecoinj.script.ScriptChunk;
-import org.litecoinj.script.ScriptPattern;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.ScriptChunk;
+import org.sumcoinj.script.ScriptPattern;
 
 import com.google.common.base.MoreObjects;
 import com.google.common.base.Objects;

@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package org.litecoinj.params;
+package org.sumcoinj.params;
 
-import org.litecoinj.core.*;
+import org.sumcoinj.core.*;
 
 import java.math.BigInteger;
 

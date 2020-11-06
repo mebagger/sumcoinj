@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.litecoinj.protocols.channels;
+package org.sumcoinj.protocols.channels;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.util.concurrent.AsyncFunction;
-import org.litecoinj.core.*;
-import org.litecoinj.protocols.channels.PaymentChannelCloseException.CloseReason;
-import org.litecoinj.utils.Threading;
-import org.litecoinj.wallet.Wallet;
+import org.sumcoinj.core.*;
+import org.sumcoinj.protocols.channels.PaymentChannelCloseException.CloseReason;
+import org.sumcoinj.utils.Threading;
+import org.sumcoinj.wallet.Wallet;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
@@ -29,7 +29,7 @@ import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.MoreExecutors;
 import com.google.protobuf.ByteString;
 import net.jcip.annotations.GuardedBy;
-import org.litecoin.paymentchannel.Protos;
+import org.sumcoin.paymentchannel.Protos;
 import org.slf4j.LoggerFactory;
 import org.bouncycastle.crypto.params.KeyParameter;
 

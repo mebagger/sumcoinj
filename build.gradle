@@ -13,5 +13,5 @@ allprojects {
         jcenter()
     }
 
-    group = 'org.litecoinj'
+    group = 'org.sumcoinj'
 }

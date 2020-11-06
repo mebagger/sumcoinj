@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import org.litecoinj.script.Script;
-import org.litecoinj.script.ScriptException;
-import org.litecoinj.wallet.DefaultRiskAnalysis;
-import org.litecoinj.wallet.KeyBag;
-import org.litecoinj.wallet.RedeemData;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.ScriptException;
+import org.sumcoinj.wallet.DefaultRiskAnalysis;
+import org.sumcoinj.wallet.KeyBag;
+import org.sumcoinj.wallet.RedeemData;
 
 import com.google.common.base.Joiner;
 import com.google.common.base.Objects;

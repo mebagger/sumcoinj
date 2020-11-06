@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.litecoinj.wallet;
+package org.sumcoinj.wallet;
 
-import org.litecoinj.core.BloomFilter;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Utils;
-import org.litecoinj.crypto.*;
-import org.litecoinj.script.Script;
-import org.litecoinj.utils.Threading;
-import org.litecoinj.wallet.listeners.KeyChainEventListener;
+import org.sumcoinj.core.BloomFilter;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Utils;
+import org.sumcoinj.crypto.*;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.utils.Threading;
+import org.sumcoinj.wallet.listeners.KeyChainEventListener;
 
 import com.google.common.base.MoreObjects;
 import com.google.common.base.Stopwatch;
@@ -1343,7 +1343,7 @@ public class DeterministicKeyChain implements EncryptableKeyChain {
     /**
      * Whether the keychain is married.  A keychain is married when it vends P2SH addresses
      * from multiple keychains in a multisig relationship.
-     * @see org.litecoinj.wallet.MarriedKeyChain
+     * @see org.sumcoinj.wallet.MarriedKeyChain
      */
     public boolean isMarried() {
         return false;

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.wallet;
+package org.sumcoinj.wallet;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -23,20 +23,20 @@ import static com.google.common.base.Preconditions.checkNotNull;
 import java.math.BigInteger;
 import java.util.Date;
 
-import org.litecoin.protocols.payments.Protos.PaymentDetails;
-import org.litecoinj.core.Address;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.Context;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.TransactionOutput;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.ScriptBuilder;
-import org.litecoinj.utils.ExchangeRate;
-import org.litecoinj.wallet.KeyChain.KeyPurpose;
-import org.litecoinj.wallet.Wallet.MissingSigsMode;
+import org.sumcoin.protocols.payments.Protos.PaymentDetails;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.Context;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.TransactionOutput;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.ScriptBuilder;
+import org.sumcoinj.utils.ExchangeRate;
+import org.sumcoinj.wallet.KeyChain.KeyPurpose;
+import org.sumcoinj.wallet.Wallet.MissingSigsMode;
 import org.bouncycastle.crypto.params.KeyParameter;
 
 import com.google.common.base.MoreObjects;

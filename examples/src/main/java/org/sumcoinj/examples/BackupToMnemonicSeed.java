@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.litecoinj.examples;
+package org.sumcoinj.examples;
 
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Utils;
-import org.litecoinj.params.TestNet3Params;
-import org.litecoinj.wallet.DeterministicSeed;
-import org.litecoinj.wallet.Wallet;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Utils;
+import org.sumcoinj.params.TestNet3Params;
+import org.sumcoinj.wallet.DeterministicSeed;
+import org.sumcoinj.wallet.Wallet;
 
 /**
  * The following example shows you how to create a deterministic seed from a hierarchical deterministic wallet represented as a mnemonic code.

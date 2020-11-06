@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import com.google.common.base.Preconditions;
 
@@ -23,7 +23,7 @@ import java.util.Arrays;
 
 import javax.annotation.Nullable;
 
-import org.litecoinj.params.Networks;
+import org.sumcoinj.params.Networks;
 
 /**
  * Parses and generates private keys in the form used by the Bitcoin "dumpprivkey" command. This is the private key

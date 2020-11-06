@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import javax.annotation.Nullable;
 
-import org.litecoinj.script.Script;
-import org.litecoinj.wallet.Wallet;
-import org.litecoinj.wallet.WalletTransaction;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.wallet.Wallet;
+import org.sumcoinj.wallet.WalletTransaction;
 
 import java.util.Map;
 

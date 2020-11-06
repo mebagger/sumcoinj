@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.litecoinj.protocols.channels;
+package org.sumcoinj.protocols.channels;
 
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.Sha256Hash;
-import org.litecoinj.net.ProtobufConnection;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.Sha256Hash;
+import org.sumcoinj.net.ProtobufConnection;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.protobuf.ByteString;
-import org.litecoin.paymentchannel.Protos;
+import org.sumcoin.paymentchannel.Protos;
 
 import javax.annotation.Nullable;
 

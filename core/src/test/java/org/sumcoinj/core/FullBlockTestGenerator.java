@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
-import org.litecoinj.core.Transaction.SigHash;
-import org.litecoinj.crypto.TransactionSignature;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.ScriptBuilder;
-import org.litecoinj.script.ScriptException;
-import org.litecoinj.script.ScriptPattern;
+import org.sumcoinj.core.Transaction.SigHash;
+import org.sumcoinj.crypto.TransactionSignature;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.ScriptBuilder;
+import org.sumcoinj.script.ScriptException;
+import org.sumcoinj.script.ScriptPattern;
 
 import com.google.common.base.Preconditions;
 
@@ -35,8 +35,8 @@ import java.io.IOException;
 import java.math.BigInteger;
 import java.util.*;
 
-import static org.litecoinj.core.Coin.*;
-import static org.litecoinj.script.ScriptOpCodes.*;
+import static org.sumcoinj.core.Coin.*;
+import static org.sumcoinj.script.ScriptOpCodes.*;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Preconditions.checkState;
 

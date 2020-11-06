@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkState;
@@ -23,9 +23,9 @@ import java.io.ByteArrayOutputStream;
 
 import javax.annotation.Nullable;
 
-import org.litecoinj.params.Networks;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.Script.ScriptType;
+import org.sumcoinj.params.Networks;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.Script.ScriptType;
 
 /**
  * <p>Implementation of native segwit addresses. They are composed of two parts:</p>

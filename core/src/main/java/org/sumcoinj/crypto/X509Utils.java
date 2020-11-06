@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.crypto;
+package org.sumcoinj.crypto;
 
 import com.google.common.base.Joiner;
-import org.litecoinj.protocols.payments.PaymentSession;
+import org.sumcoinj.protocols.payments.PaymentSession;
 import org.bouncycastle.asn1.ASN1ObjectIdentifier;
 import org.bouncycastle.asn1.ASN1String;
 import org.bouncycastle.asn1.x500.AttributeTypeAndValue;

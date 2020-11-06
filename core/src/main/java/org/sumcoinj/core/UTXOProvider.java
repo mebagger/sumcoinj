@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import org.litecoinj.store.FullPrunedBlockStore;
+import org.sumcoinj.store.FullPrunedBlockStore;
 
 import java.util.List;
 

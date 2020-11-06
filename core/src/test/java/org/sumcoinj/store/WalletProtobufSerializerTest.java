@@ -15,50 +15,50 @@
  * limitations under the License.
  */
 
-package org.litecoinj.store;
+package org.sumcoinj.store;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Block;
-import org.litecoinj.core.BlockChain;
-import org.litecoinj.core.BlockTest;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.Context;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.PeerAddress;
-import org.litecoinj.core.Sha256Hash;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.Transaction.Purpose;
-import org.litecoinj.core.TransactionConfidence;
-import org.litecoinj.core.TransactionConfidence.ConfidenceType;
-import org.litecoinj.core.TransactionInput;
-import org.litecoinj.core.Utils;
-import org.litecoinj.crypto.DeterministicKey;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.params.UnitTestParams;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.ScriptBuilder;
-import org.litecoinj.testing.FakeTxBuilder;
-import org.litecoinj.testing.FooWalletExtension;
-import org.litecoinj.utils.BriefLogFormatter;
-import org.litecoinj.utils.Threading;
-import org.litecoinj.wallet.DeterministicKeyChain;
-import org.litecoinj.wallet.KeyChain;
-import org.litecoinj.wallet.KeyChainGroup;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Block;
+import org.sumcoinj.core.BlockChain;
+import org.sumcoinj.core.BlockTest;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.Context;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.PeerAddress;
+import org.sumcoinj.core.Sha256Hash;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.Transaction.Purpose;
+import org.sumcoinj.core.TransactionConfidence;
+import org.sumcoinj.core.TransactionConfidence.ConfidenceType;
+import org.sumcoinj.core.TransactionInput;
+import org.sumcoinj.core.Utils;
+import org.sumcoinj.crypto.DeterministicKey;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.params.UnitTestParams;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.ScriptBuilder;
+import org.sumcoinj.testing.FakeTxBuilder;
+import org.sumcoinj.testing.FooWalletExtension;
+import org.sumcoinj.utils.BriefLogFormatter;
+import org.sumcoinj.utils.Threading;
+import org.sumcoinj.wallet.DeterministicKeyChain;
+import org.sumcoinj.wallet.KeyChain;
+import org.sumcoinj.wallet.KeyChainGroup;
 
 import com.google.common.io.ByteStreams;
 import com.google.protobuf.ByteString;
 
-import org.litecoinj.wallet.MarriedKeyChain;
-import org.litecoinj.wallet.Protos;
-import org.litecoinj.wallet.UnreadableWalletException;
-import org.litecoinj.wallet.Wallet;
-import org.litecoinj.wallet.WalletExtension;
-import org.litecoinj.wallet.WalletProtobufSerializer;
-import org.litecoinj.wallet.WalletTransaction;
-import org.litecoinj.wallet.WalletTransaction.Pool;
-import org.litecoinj.wallet.listeners.WalletCoinsReceivedEventListener;
+import org.sumcoinj.wallet.MarriedKeyChain;
+import org.sumcoinj.wallet.Protos;
+import org.sumcoinj.wallet.UnreadableWalletException;
+import org.sumcoinj.wallet.Wallet;
+import org.sumcoinj.wallet.WalletExtension;
+import org.sumcoinj.wallet.WalletProtobufSerializer;
+import org.sumcoinj.wallet.WalletTransaction;
+import org.sumcoinj.wallet.WalletTransaction.Pool;
+import org.sumcoinj.wallet.listeners.WalletCoinsReceivedEventListener;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -72,8 +72,8 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
 
-import static org.litecoinj.core.Coin.*;
-import static org.litecoinj.testing.FakeTxBuilder.createFakeTx;
+import static org.sumcoinj.core.Coin.*;
+import static org.sumcoinj.testing.FakeTxBuilder.createFakeTx;
 import static org.junit.Assert.*;
 import static com.google.common.base.Preconditions.checkNotNull;
 

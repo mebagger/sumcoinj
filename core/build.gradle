@@ -5,8 +5,8 @@ apply plugin: 'maven-publish'
 apply plugin: 'eclipse'
 
 version = '0.15.1.20190418'
-archivesBaseName = 'litecoinj-core'
-eclipse.project.name = 'litecoinj-core'
+archivesBaseName = 'sumcoinj-core'
+eclipse.project.name = 'sumcoinj-core'
 
 buildscript {
     ext.with {

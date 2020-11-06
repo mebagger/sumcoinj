@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import com.google.common.base.Objects;
-import org.litecoinj.net.discovery.HttpDiscovery;
+import org.sumcoinj.net.discovery.HttpDiscovery;
 
 import java.io.IOException;
 import java.io.OutputStream;

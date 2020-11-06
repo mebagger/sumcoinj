@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.litecoinj.store;
+package org.sumcoinj.store;
 
-import org.litecoinj.core.BlockChain;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Sha256Hash;
-import org.litecoinj.core.StoredBlock;
+import org.sumcoinj.core.BlockChain;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Sha256Hash;
+import org.sumcoinj.core.StoredBlock;
 
 /**
  * An implementor of BlockStore saves StoredBlock objects to disk. Different implementations store them in

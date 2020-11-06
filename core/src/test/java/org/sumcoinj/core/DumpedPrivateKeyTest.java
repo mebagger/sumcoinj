@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -28,8 +28,8 @@ import java.io.ObjectOutputStream;
 import java.util.Arrays;
 
 import org.junit.Test;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.params.TestNet3Params;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.params.TestNet3Params;
 
 public class DumpedPrivateKeyTest {
     private static final NetworkParameters MAINNET = MainNetParams.get();

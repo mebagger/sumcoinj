@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import static org.litecoinj.core.Utils.HEX;
+import static org.sumcoinj.core.Utils.HEX;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.math.BigInteger;
 import java.net.InetAddress;
 
-import org.litecoinj.params.MainNetParams;
+import org.sumcoinj.params.MainNetParams;
 import org.junit.Test;
 
 public class PeerAddressTest {

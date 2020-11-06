@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import static com.google.common.base.Preconditions.checkArgument;
 
@@ -24,7 +24,7 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import org.litecoinj.crypto.TransactionSignature;
+import org.sumcoinj.crypto.TransactionSignature;
 
 public class TransactionWitness {
     public static final TransactionWitness EMPTY = new TransactionWitness(0);

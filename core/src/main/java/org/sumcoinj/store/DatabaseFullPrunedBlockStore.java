@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-package org.litecoinj.store;
+package org.sumcoinj.store;
 
 import com.google.common.collect.Lists;
-import org.litecoinj.core.*;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.Script.ScriptType;
+import org.sumcoinj.core.*;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.Script.ScriptType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

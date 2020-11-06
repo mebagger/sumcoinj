@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.params;
+package org.sumcoinj.params;
 
-import org.litecoinj.core.*;
-import org.litecoinj.net.discovery.*;
+import org.sumcoinj.core.*;
+import org.sumcoinj.net.discovery.*;
 
 import java.net.*;
 
@@ -86,8 +86,8 @@ public class MainNetParams extends AbstractBitcoinNetParams {
         checkpoints.put(638902, Sha256Hash.wrap("15238656e8ec63d28de29a8c75fcf3a5819afc953dcd9cc45cecc53baec74f38"));
 
         dnsSeeds = new String[] {
-                "dnsseed.litecointools.com",
-                "dnsseed.litecoinpool.org",
+                "dnsseed.sumcointools.com",
+                "dnsseed.sumcoinpool.org",
                 "dnsseed.koin-project.com",
                 "dnsseed.weminemnc.com"
         };

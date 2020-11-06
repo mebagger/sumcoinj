@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package org.litecoinj.script;
+package org.sumcoinj.script;
 
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.SegwitAddress;
-import org.litecoinj.core.Sha256Hash;
-import org.litecoinj.core.Utils;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.SegwitAddress;
+import org.sumcoinj.core.Sha256Hash;
+import org.sumcoinj.core.Utils;
 
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.litecoinj.script.Script.decodeFromOpN;
-import static org.litecoinj.script.ScriptOpCodes.*;
+import static org.sumcoinj.script.Script.decodeFromOpN;
+import static org.sumcoinj.script.ScriptOpCodes.*;
 
 /**
  * This is a Script pattern matcher with some typical script patterns

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -26,12 +26,12 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Locale;
 
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.params.TestNet3Params;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.Script.ScriptType;
-import org.litecoinj.script.ScriptBuilder;
-import org.litecoinj.script.ScriptPattern;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.params.TestNet3Params;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.Script.ScriptType;
+import org.sumcoinj.script.ScriptBuilder;
+import org.sumcoinj.script.ScriptPattern;
 import org.junit.Test;
 
 import com.google.common.base.MoreObjects;

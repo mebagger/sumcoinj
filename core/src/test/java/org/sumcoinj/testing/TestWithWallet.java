@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package org.litecoinj.testing;
+package org.sumcoinj.testing;
 
-import org.litecoinj.core.AbstractBlockChain;
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Block;
-import org.litecoinj.core.BlockChain;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.Context;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.Transaction;
-import org.litecoinj.core.VerificationException;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.params.UnitTestParams;
-import org.litecoinj.script.Script;
-import org.litecoinj.store.BlockStore;
-import org.litecoinj.store.MemoryBlockStore;
-import org.litecoinj.utils.BriefLogFormatter;
-import org.litecoinj.wallet.Wallet;
+import org.sumcoinj.core.AbstractBlockChain;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Block;
+import org.sumcoinj.core.BlockChain;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.Context;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.Transaction;
+import org.sumcoinj.core.VerificationException;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.params.UnitTestParams;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.store.BlockStore;
+import org.sumcoinj.store.MemoryBlockStore;
+import org.sumcoinj.utils.BriefLogFormatter;
+import org.sumcoinj.wallet.Wallet;
 
 import javax.annotation.Nullable;
 
-import static org.litecoinj.testing.FakeTxBuilder.createFakeBlock;
-import static org.litecoinj.testing.FakeTxBuilder.createFakeTx;
+import static org.sumcoinj.testing.FakeTxBuilder.createFakeBlock;
+import static org.sumcoinj.testing.FakeTxBuilder.createFakeTx;
 
 // TODO: This needs to be somewhat rewritten - the "sendMoneyToWallet" methods aren't sending via the block chain object
 

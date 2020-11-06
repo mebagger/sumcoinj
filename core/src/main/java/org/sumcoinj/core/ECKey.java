@@ -16,21 +16,21 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import org.litecoinj.crypto.*;
-import org.litecoinj.script.Script;
+import org.sumcoinj.crypto.*;
+import org.sumcoinj.script.Script;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.MoreObjects;
 import com.google.common.base.Objects;
 import com.google.common.base.Preconditions;
 import com.google.common.primitives.UnsignedBytes;
-import org.litecoin.NativeSecp256k1;
-import org.litecoin.NativeSecp256k1Util;
-import org.litecoin.Secp256k1Context;
-import org.litecoinj.wallet.Protos;
-import org.litecoinj.wallet.Wallet;
+import org.sumcoin.NativeSecp256k1;
+import org.sumcoin.NativeSecp256k1Util;
+import org.sumcoin.Secp256k1Context;
+import org.sumcoinj.wallet.Protos;
+import org.sumcoinj.wallet.Wallet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.bouncycastle.asn1.*;
@@ -420,7 +420,7 @@ public class ECKey implements EncryptableItem {
     /**
      * Output this ECKey as an ASN.1 encoded private key, as understood by OpenSSL or used by Bitcoin Core
      * in its wallet storage format.
-     * @throws org.litecoinj.core.ECKey.MissingPrivateKeyException if the private key is missing or encrypted.
+     * @throws org.sumcoinj.core.ECKey.MissingPrivateKeyException if the private key is missing or encrypted.
      */
     public byte[] toASN1() {
         try {
@@ -1038,7 +1038,7 @@ public class ECKey implements EncryptableItem {
 
     /**
      * Returns a 32 byte array containing the private key.
-     * @throws org.litecoinj.core.ECKey.MissingPrivateKeyException if the private key bytes are missing/encrypted.
+     * @throws org.sumcoinj.core.ECKey.MissingPrivateKeyException if the private key bytes are missing/encrypted.
      */
     public byte[] getPrivKeyBytes() {
         return Utils.bigIntegerToBytes(getPrivKey(), 32);

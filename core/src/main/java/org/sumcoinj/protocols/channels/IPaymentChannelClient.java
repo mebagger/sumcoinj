@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.litecoinj.protocols.channels;
+package org.sumcoinj.protocols.channels;
 
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.InsufficientMoneyException;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.InsufficientMoneyException;
 import com.google.common.util.concurrent.ListenableFuture;
 
 import com.google.protobuf.ByteString;
-import org.litecoin.paymentchannel.Protos;
-import org.litecoinj.wallet.SendRequest;
+import org.sumcoin.paymentchannel.Protos;
+import org.sumcoinj.wallet.SendRequest;
 import org.bouncycastle.crypto.params.KeyParameter;
 
 import javax.annotation.Nullable;

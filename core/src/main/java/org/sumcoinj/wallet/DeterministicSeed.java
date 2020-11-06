@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.wallet;
+package org.sumcoinj.wallet;
 
-import org.litecoinj.core.Utils;
-import org.litecoinj.crypto.*;
+import org.sumcoinj.core.Utils;
+import org.sumcoinj.crypto.*;
 
 import com.google.common.base.MoreObjects;
 import com.google.common.base.Objects;
@@ -32,7 +32,7 @@ import java.security.SecureRandom;
 import java.util.List;
 
 import static com.google.common.base.Preconditions.checkArgument;
-import static org.litecoinj.core.Utils.HEX;
+import static org.sumcoinj.core.Utils.HEX;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Preconditions.checkState;
 
@@ -230,7 +230,7 @@ public class DeterministicSeed implements EncryptableItem {
      * Check if our mnemonic is a valid mnemonic phrase for our word list.
      * Does nothing if we are encrypted.
      *
-     * @throws org.litecoinj.crypto.MnemonicException if check fails
+     * @throws org.sumcoinj.crypto.MnemonicException if check fails
      */
     public void check() throws MnemonicException {
         if (mnemonicCode != null)

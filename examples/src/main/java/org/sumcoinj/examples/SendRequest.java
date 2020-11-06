@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.litecoinj.examples;
+package org.sumcoinj.examples;
 
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.MoreExecutors;
 
-import org.litecoinj.core.*;
-import org.litecoinj.kits.WalletAppKit;
-import org.litecoinj.params.TestNet3Params;
-import org.litecoinj.wallet.Wallet;
-import org.litecoinj.wallet.Wallet.BalanceType;
+import org.sumcoinj.core.*;
+import org.sumcoinj.kits.WalletAppKit;
+import org.sumcoinj.params.TestNet3Params;
+import org.sumcoinj.wallet.Wallet;
+import org.sumcoinj.wallet.Wallet.BalanceType;
 
 import java.io.File;
 

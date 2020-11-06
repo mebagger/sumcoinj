@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core.listeners;
+package org.sumcoinj.core.listeners;
 
-import org.litecoinj.core.Peer;
-import org.litecoinj.core.PeerAddress;
-import org.litecoinj.core.PeerGroup;
+import org.sumcoinj.core.Peer;
+import org.sumcoinj.core.PeerAddress;
+import org.sumcoinj.core.PeerGroup;
 
 import java.util.Set;
 

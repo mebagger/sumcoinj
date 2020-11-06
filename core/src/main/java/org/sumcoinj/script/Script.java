@@ -17,10 +17,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.script;
+package org.sumcoinj.script;
 
-import org.litecoinj.core.*;
-import org.litecoinj.crypto.TransactionSignature;
+import org.sumcoinj.core.*;
+import org.sumcoinj.crypto.TransactionSignature;
 import com.google.common.collect.Lists;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,7 +36,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.*;
 
-import static org.litecoinj.script.ScriptOpCodes.*;
+import static org.sumcoinj.script.ScriptOpCodes.*;
 import static com.google.common.base.Preconditions.*;
 
 // TODO: Redesign this entire API to be more type safe and organised.

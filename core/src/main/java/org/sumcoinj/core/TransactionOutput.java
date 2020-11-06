@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import com.google.common.base.Objects;
-import org.litecoinj.script.*;
-import org.litecoinj.wallet.Wallet;
+import org.sumcoinj.script.*;
+import org.sumcoinj.wallet.Wallet;
 import org.slf4j.*;
 
 import javax.annotation.*;

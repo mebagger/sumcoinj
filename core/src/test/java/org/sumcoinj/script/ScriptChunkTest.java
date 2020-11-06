@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.litecoinj.script;
+package org.sumcoinj.script;
 
-import static org.litecoinj.script.ScriptOpCodes.OP_0;
-import static org.litecoinj.script.ScriptOpCodes.OP_IF;
-import static org.litecoinj.script.ScriptOpCodes.OP_PUSHDATA1;
-import static org.litecoinj.script.ScriptOpCodes.OP_PUSHDATA2;
-import static org.litecoinj.script.ScriptOpCodes.OP_PUSHDATA4;
+import static org.sumcoinj.script.ScriptOpCodes.OP_0;
+import static org.sumcoinj.script.ScriptOpCodes.OP_IF;
+import static org.sumcoinj.script.ScriptOpCodes.OP_PUSHDATA1;
+import static org.sumcoinj.script.ScriptOpCodes.OP_PUSHDATA2;
+import static org.sumcoinj.script.ScriptOpCodes.OP_PUSHDATA4;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

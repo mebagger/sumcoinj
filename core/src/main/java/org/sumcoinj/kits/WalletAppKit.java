@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package org.litecoinj.kits;
+package org.sumcoinj.kits;
 
 import com.google.common.collect.*;
 import com.google.common.io.Closeables;
 import com.google.common.util.concurrent.*;
-import org.litecoinj.core.listeners.*;
-import org.litecoinj.core.*;
-import org.litecoinj.crypto.DeterministicKey;
-import org.litecoinj.net.discovery.*;
-import org.litecoinj.protocols.channels.*;
-import org.litecoinj.script.Script;
-import org.litecoinj.store.*;
-import org.litecoinj.wallet.*;
+import org.sumcoinj.core.listeners.*;
+import org.sumcoinj.core.*;
+import org.sumcoinj.crypto.DeterministicKey;
+import org.sumcoinj.net.discovery.*;
+import org.sumcoinj.protocols.channels.*;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.store.*;
+import org.sumcoinj.wallet.*;
 import org.slf4j.*;
 
 import javax.annotation.*;

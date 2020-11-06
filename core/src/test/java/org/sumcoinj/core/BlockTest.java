@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import com.google.common.io.ByteStreams;
 
-import org.litecoinj.core.AbstractBlockChain.NewBlockType;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.params.TestNet3Params;
-import org.litecoinj.params.UnitTestParams;
-import org.litecoinj.script.ScriptOpCodes;
-import org.litecoinj.wallet.Wallet;
-import org.litecoinj.wallet.Wallet.BalanceType;
+import org.sumcoinj.core.AbstractBlockChain.NewBlockType;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.params.TestNet3Params;
+import org.sumcoinj.params.UnitTestParams;
+import org.sumcoinj.script.ScriptOpCodes;
+import org.sumcoinj.wallet.Wallet;
+import org.sumcoinj.wallet.Wallet.BalanceType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -39,7 +39,7 @@ import java.util.EnumSet;
 import java.util.List;
 
 import static org.junit.Assert.*;
-import static org.litecoinj.core.Utils.HEX;
+import static org.sumcoinj.core.Utils.HEX;
 
 public class BlockTest {
     private static final NetworkParameters TESTNET = TestNet3Params.get();

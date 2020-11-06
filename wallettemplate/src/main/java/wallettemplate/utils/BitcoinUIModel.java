@@ -16,11 +16,11 @@
 
 package wallettemplate.utils;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Coin;
-import org.litecoinj.core.listeners.DownloadProgressTracker;
-import org.litecoinj.wallet.Wallet;
-import org.litecoinj.wallet.listeners.WalletChangeEventListener;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Coin;
+import org.sumcoinj.core.listeners.DownloadProgressTracker;
+import org.sumcoinj.wallet.Wallet;
+import org.sumcoinj.wallet.listeners.WalletChangeEventListener;
 import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyDoubleProperty;
 import javafx.beans.property.ReadOnlyObjectProperty;

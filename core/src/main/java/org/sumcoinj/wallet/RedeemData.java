@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package org.litecoinj.wallet;
+package org.sumcoinj.wallet;
 
-import org.litecoinj.core.ECKey;
-import org.litecoinj.script.Script;
-import org.litecoinj.script.ScriptPattern;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.script.Script;
+import org.sumcoinj.script.ScriptPattern;
 
 import com.google.common.base.MoreObjects;
 

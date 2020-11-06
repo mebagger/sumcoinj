@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.litecoinj.net;
+package org.sumcoinj.net;
 
 import com.google.common.util.concurrent.AbstractIdleService;
 import com.google.common.util.concurrent.ListenableFuture;

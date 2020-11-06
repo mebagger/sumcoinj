@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.litecoinj.net.discovery;
+package org.sumcoinj.net.discovery;
 
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.params.MainNetParams;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.params.MainNetParams;
 import org.junit.Test;
 
 import java.net.InetSocketAddress;

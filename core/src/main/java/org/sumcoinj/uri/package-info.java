@@ -17,4 +17,4 @@
 /**
  * Parsing and handling of bitcoin: textual URIs as found in qr codes and web links.
  */
-package org.litecoinj.uri;
+package org.sumcoinj.uri;

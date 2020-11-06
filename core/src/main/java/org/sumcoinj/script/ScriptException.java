@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.litecoinj.script;
+package org.sumcoinj.script;
 
-import org.litecoinj.core.VerificationException;
+import org.sumcoinj.core.VerificationException;
 
 @SuppressWarnings("serial")
 public class ScriptException extends VerificationException {

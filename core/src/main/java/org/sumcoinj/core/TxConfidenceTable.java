@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
-import org.litecoinj.utils.*;
+import org.sumcoinj.utils.*;
 
 import javax.annotation.*;
 import java.lang.ref.*;

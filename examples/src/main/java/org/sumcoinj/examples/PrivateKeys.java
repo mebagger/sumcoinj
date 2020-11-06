@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-package org.litecoinj.examples;
+package org.sumcoinj.examples;
 
-import org.litecoinj.core.Address;
-import org.litecoinj.core.Base58;
-import org.litecoinj.core.BlockChain;
-import org.litecoinj.core.DumpedPrivateKey;
-import org.litecoinj.core.ECKey;
-import org.litecoinj.core.LegacyAddress;
-import org.litecoinj.core.NetworkParameters;
-import org.litecoinj.core.PeerAddress;
-import org.litecoinj.core.PeerGroup;
-import org.litecoinj.params.MainNetParams;
-import org.litecoinj.store.MemoryBlockStore;
-import org.litecoinj.wallet.Wallet;
+import org.sumcoinj.core.Address;
+import org.sumcoinj.core.Base58;
+import org.sumcoinj.core.BlockChain;
+import org.sumcoinj.core.DumpedPrivateKey;
+import org.sumcoinj.core.ECKey;
+import org.sumcoinj.core.LegacyAddress;
+import org.sumcoinj.core.NetworkParameters;
+import org.sumcoinj.core.PeerAddress;
+import org.sumcoinj.core.PeerGroup;
+import org.sumcoinj.params.MainNetParams;
+import org.sumcoinj.store.MemoryBlockStore;
+import org.sumcoinj.wallet.Wallet;
 
 import java.math.BigInteger;
 import java.net.InetAddress;

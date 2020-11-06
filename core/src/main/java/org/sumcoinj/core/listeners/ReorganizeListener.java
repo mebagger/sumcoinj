@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core.listeners;
+package org.sumcoinj.core.listeners;
 
 import java.util.List;
 
-import org.litecoinj.core.BlockChain;
-import org.litecoinj.core.StoredBlock;
-import org.litecoinj.core.VerificationException;
+import org.sumcoinj.core.BlockChain;
+import org.sumcoinj.core.StoredBlock;
+import org.sumcoinj.core.VerificationException;
 
 /**
  * Listener interface for when the best chain has changed.

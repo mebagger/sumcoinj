@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.litecoinj.utils;
+package org.sumcoinj.utils;
 
-import static org.litecoinj.core.Coin.SMALLEST_UNIT_EXPONENT;
+import static org.sumcoinj.core.Coin.SMALLEST_UNIT_EXPONENT;
 import static com.google.common.base.Preconditions.checkArgument;
 import com.google.common.base.Objects;
-import org.litecoinj.core.Coin;
+import org.sumcoinj.core.Coin;
 
 import java.math.BigInteger;
 import java.text.DecimalFormat;

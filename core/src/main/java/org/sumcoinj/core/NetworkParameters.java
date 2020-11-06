@@ -15,27 +15,27 @@
  * limitations under the License.
  */
 
-package org.litecoinj.core;
+package org.sumcoinj.core;
 
 import com.google.common.base.Objects;
-import org.litecoinj.core.Block;
-import org.litecoinj.core.StoredBlock;
-import org.litecoinj.core.VerificationException;
-import org.litecoinj.net.discovery.*;
-import org.litecoinj.params.*;
-import org.litecoinj.script.*;
-import org.litecoinj.store.BlockStore;
-import org.litecoinj.store.BlockStoreException;
+import org.sumcoinj.core.Block;
+import org.sumcoinj.core.StoredBlock;
+import org.sumcoinj.core.VerificationException;
+import org.sumcoinj.net.discovery.*;
+import org.sumcoinj.params.*;
+import org.sumcoinj.script.*;
+import org.sumcoinj.store.BlockStore;
+import org.sumcoinj.store.BlockStoreException;
 
-import org.litecoinj.utils.MonetaryFormat;
+import org.sumcoinj.utils.MonetaryFormat;
 
 import javax.annotation.*;
 import java.io.*;
 import java.math.*;
 import java.util.*;
 
-import static org.litecoinj.core.Coin.*;
-import org.litecoinj.utils.VersionTally;
+import static org.sumcoinj.core.Coin.*;
+import org.sumcoinj.utils.VersionTally;
 
 /**
  * <p>NetworkParameters contains the data needed for working with an instantiation of a Bitcoin chain.</p>
@@ -52,13 +52,13 @@ public abstract class NetworkParameters {
     public static final byte[] SATOSHI_KEY = Utils.HEX.decode("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9");
 
     /** The string returned by getId() for the main, production network where people trade things. */
-    public static final String ID_MAINNET = "org.litecoin.production";
+    public static final String ID_MAINNET = "org.sumcoin.production";
     /** The string returned by getId() for the testnet. */
-    public static final String ID_TESTNET = "org.litecoin.test";
+    public static final String ID_TESTNET = "org.sumcoin.test";
     /** The string returned by getId() for regtest mode. */
-    public static final String ID_REGTEST = "org.litecoin.regtest";
+    public static final String ID_REGTEST = "org.sumcoin.regtest";
     /** Unit test network. */
-    public static final String ID_UNITTESTNET = "org.litecoinj.unittest";
+    public static final String ID_UNITTESTNET = "org.sumcoinj.unittest";
 
     /** The string used by the payment protocol to represent the main net. */
     public static final String PAYMENT_PROTOCOL_ID_MAINNET = "main";
